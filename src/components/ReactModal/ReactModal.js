@@ -19,7 +19,7 @@ const ReactModal = (props) => {
           <Modal.Title>{title.slice(0, 15)}</Modal.Title>
         </Modal.Header>
         <img className='w-50' src={image} alt="" />
-        <h4>Price : {price}</h4>
+        <h4>Price : {price}$</h4>
         <h4>Id Number : {id}</h4>
         <Modal.Body>{description}</Modal.Body>
         <Modal.Footer>
